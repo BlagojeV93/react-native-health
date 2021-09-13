@@ -173,7 +173,8 @@
                                                    @"device": device,
                                                    @"distance" : @(distance),
                                                    @"start" : startDateString,
-                                                   @"end" : endDateString
+                                                   @"end" : endDateString,
+                                                   @"integrationActivityId" : [[sample UUID] UUIDString]
                                                    };
 
                             [data addObject:elem];
